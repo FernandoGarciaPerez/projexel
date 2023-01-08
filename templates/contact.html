@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit-icons.min.js"></script>
+    
+    
+    
+        <link rel="stylesheet" href="/static/css/styles.css" />
+
+        <link rel="stylesheet" href="/static/css/styles_footer.css" />
+
+</head>
+<body>
+
+    <header>
+        <div id="brand"><a href="/"><img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/e891834c-452c-4b2a-b51b-24e092f2b6b2/PROJEXEL+LOGO+0502b.png?format=1500w" alt="" style="width: 14rem ;"></a></div>
+
+        <nav>
+
+          <ul>
+
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="itservices" >IT Services</a></li>
+            <li><a href="contact">Contact</a></li>
+
+          </ul>
+
+        </nav>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+
+          <ul class="mobile-menu">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="itservices">IT Services</a></li>
+            <li><a href="contact" >contact</a></li>
+
+            <li><a class="socialnet" href="https://mobile.twitter.com/LLCProjexel" target="_blank">Twitter</a></li>
+            <li><a class="socialnet" href="https://www.linkedin.com/company/projexel-llc/about/" target="_blank">LinkedIn</a></li>
+            
+
+          </ul>
+
+        </div>
+
+      </header>
+
+
+
+
+    <div class="formdiv">
+      <div class="uk-child-width-expand@m" uk-grid>
+            
+        <div>
+            <h1>Let’s Work Together</h1>
+            
+        </div>
+
+        <div class="uk-grid-item-match">
+            <div class="uk-card uk-card-default uk-card-body">
+              <form class="uk-form-stacked classform" style="margin: 0 auto; width: 100%; padding: 0;" action="https://formsubmit.co/" method="POST">
+
+                <div class="uk-margin" style="display: flex; flex-wrap: wrap; margin: 0; width: 100%; justify-content: space-between; align-items: center;">
+                    
+                    
+                    <div style=" width: 48%;">
+                        
+                        <label class="uk-form-label" for="name">First Name</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="name" type="text" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div style="width: 48% ;"> 
+                        <label class="uk-form-label" for="lastname">Last Name</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="lastname" type="text" placeholder="Last Name">
+                        </div>
+                    </div>
+    
+                </div>
+            
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="email">Email *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="email" type="email" placeholder="Email">
+                    </div>
+                </div>
+            
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="subject">Subject *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="subject" type="text" placeholder="Subject">
+                    </div>
+                </div>
+    
+    
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="message">Message *</label>
+                    <div class="uk-form-controls">
+                        <textarea class="uk-textarea" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                </div>
+    
+                <button class="uk-button uk-button-primary uk-button-large btn-cu" type="submit" >Submit</button>
+    
+            
+            </form>
+            </div>
+         </div>
+    </div>
+    </div>
+
+    <footer class="footer-distributed" style="margin-top: 10vh ;">
+
+        <div class="footer-left">
+  
+          <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/e891834c-452c-4b2a-b51b-24e092f2b6b2/PROJEXEL+LOGO+0502b.png?format=1500w" alt="" style="width: 14rem ;">
+  
+          <p class="footer-links">
+            <a href="/" class="link-1">Home</a>
+            
+            <a href="about">About</a>
+          
+            <a href="itservices">IT Services</a>
+          
+            <a href="contact">Contact</a>
+            
+          </p>
+  
+          <p class="footer-company-name">Projexel LLC © 2017</p>
+        </div>
+  
+        <div class="footer-center">
+
+          <div>
+            <p class="footer-company-about"><span>Contact us</span></p>
+
+            
+          </div>
+  
+          <div>
+            <p uk-icon="phone"></p>
+            <a href="tel:+17378375389" style="color: rgb(255, 255, 255) ;">Call us: (737)-837-5389</a>
+          </div>
+  
+  
+  
+          <div>
+              <p uk-icon="mail"></p>
+            <p><a href="mailto:info@projexel.vet">info@projexel.vet</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Un slogan que apantalle...
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="https://mobile.twitter.com/LLCProjexel" target="_blank"><i uk-icon="twitter" ></i></a>
+            <a href="https://www.linkedin.com/company/projexel-llc/about/" target="_blank"><i uk-icon="linkedin"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="footer-sdvosb">
+
+          <img src="../static/images/svdosb.png" alt="">
+        </div>
+  
+      </footer>
+    
+    <script src="../static/js/index.js"></script>
+</body>
+</html>

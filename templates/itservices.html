@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projexel LLC</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/styles.css" />
+
+    <link rel="stylesheet" href="/static/css/styles_footer.css" />   
+
+</head>
+<body>
+
+    <header uk-sticky="start: 200; animation: uk-animation-slide-top">
+        <div id="brand"><a href="/"><img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/e891834c-452c-4b2a-b51b-24e092f2b6b2/PROJEXEL+LOGO+0502b.png?format=1500w" alt="" style="width: 14rem ;"></a></div>
+
+        <nav>
+
+          <ul>
+
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="itservices" >IT Services</a></li>
+            <li><a href="contact">Contact</a></li>
+
+          </ul>
+
+        </nav>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+
+          <ul class="mobile-menu">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="itservices">IT Services</a></li>
+            <li><a href="contact" >contact</a></li>
+
+            <li><a class="socialnet" href="https://mobile.twitter.com/LLCProjexel" target="_blank">Twitter</a></li>
+            <li><a class="socialnet" href="https://www.linkedin.com/company/projexel-llc/about/" target="_blank">LinkedIn</a></li>
+            
+
+          </ul>
+
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+    <div class="its" style=" width: 100% ; height: 7vh ; text-align: center; background-color: #484848; ">
+      
+      <h1 style="color:white ;">IT Services</h1>
+      
+    </div>
+
+
+    <div class="uk-position-relative uk-visible-toggle uk-light"  uk-slideshow="ratio: 8:3" style="  margin-bottom: 10vh">
+
+      <ul class="uk-slideshow-items slydersh" uk-slideshow="autoplay: true; animation: fade; velocity: 0.4">
+
+          <li>
+              <img src="../static/images/img1.png" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-bottom  uk-transition-slide-bottom" >
+                <h3 >Cloud Services</h3>
+              
+            </div>
+          </li>
+          <li>
+              <img src="../static/images/img2.png" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                <h3 class="uk-margin-remove">Managed Services</h3>
+                
+            </div>
+          </li>
+          <li>
+            <img src="../static/images/img3.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+              <h3 class="uk-margin-remove">Artificial Intelligence</h3>
+              
+          </div>
+          </li>
+
+          <li>
+            <img src="../static/images/img4.png" alt="" uk-cover>
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+              <h3 class="uk-margin-remove">Data Migration</h3>
+              
+          </div>
+        </li>
+      </ul>
+
+     
+
+  </div>
+
+    <div class="transani">
+      
+        <ul class="uk-subnav uk-subnav-pill uk-flex uk-flex-center" uk-sticky="start: 1900; animation: uk-animation-slide-top; offset: 75" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium" style="width: auto; ">
+            <li style="background-color: white; padding: 0;"><a href="#" style="color: black ;">Data Science</a></li>
+            <li style="background-color: white; padding: 0;"><a href="#" style="color: black ;">Cloud Services</a></li>
+            <li style="background-color: white; padding: 0;"><a href="#" style="color: black ;">Managed services</a></li>
+        </ul>
+      
+        
+        <ul class="uk-switcher uk-margin">
+            <li>
+              <div class="centerdiv">
+                <h1 class="uk-text-center">Data Science</h1>
+
+                <p>
+                  The speed of innovation occurring in the data and computer sciences fields is immense.  We are seeing leaps and bounds in how the industry 
+                  and government are leveraging AI / ML technology capabilities and solutions to proactively solve problems.  At Projexel, our data scientists 
+                  and data engineers are experts in developing AI / ML, CV, and NLP solutions.  We apply our data models and statistical sampling best practices 
+                  to train intelligent systems and gain meaningful results.   
+                </p>
+
+                <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652842874104-VII4PGIJ3NYW5TEKHBKR/Machine+Learning050722a.png?format=2500w" alt="">
+
+
+                <div style="margin-top: 10vh ;">
+                  <h2 style="font-weight: bold;">Services offered</h2>
+                </div>
+                
+                <div uk-slider style="margin-bottom: 7vh ; margin-top: 10vh;" class="uk-margin-auto">
+                
+                  <div class="uk-position-relative uk-slider-container uk-light uk-margin-auto" tabindex="-1" style="max-width: 1500px; ; background-color: aqua ; max-width: 1500px;" uk-slider="clsActivated: uk-transition-active; center: true">
+                
+                      <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                          <li style="background-color:blue ; width:100% ; height: 60vh; ">
+                              <img src="images/Ai.jpg" width="100%" height="auto" alt="" uk-cover>
+                              <div class="uk-position-bottom-center uk-panel"><button onclick="add1()" style="border-radius: 8px ; min-width: 12vw ; margin-bottom: 2vh; font-size: 1rem; color: white; background: #2d2c2c; border-color: #2d2c2c;">Read more </button></div>
+                          </li>
+                          <li style="background-color:blue ; width:100% ; height: 60vh; ">
+                              <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652843392677-C1DBYJHYF5IYHPFC6B35/NLP050722a.png?format=2500w" width="100%" height="auto" alt="" uk-cover>
+                              <div class="uk-position-bottom-center uk-panel"><button onclick="add2()" style="border-radius: 8px ; min-width: 12vw ; margin-bottom: 2vh; font-size: 1rem; color: white; background: #2d2c2c; border-color: #2d2c2c;">Read more </button></div>
+                          </li>
+                          <li style="background-color:blue ; width:100% ; height: 60vh; ">
+                              <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652846919734-T0OPPXAPLQRZRVRO6THA/ARTIFICAL+INTELLIGENCE+CONSULTING+AND+SOLUTIONS051222.png?format=2500w" width="100%" height="auto" alt="" uk-cover>
+                              <div class="uk-position-bottom-center uk-panel"><button onclick="add3()" style="border-radius: 8px ; min-width: 12vw ; margin-bottom: 2vh; font-size: 1rem; color: white; background: #2d2c2c; border-color: #2d2c2c;">Read more </button></div>
+                          </li>
+                          <li style="background-color:blue ; width:100% ; height: auto; ">
+                              <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652847224606-UVD7IJQD746J4N6XTAX4/Computer+Vision051322a.png?format=2500w" width="100%" height="auto" alt="" uk-cover>
+                              
+                              
+                              <div class="uk-position-bottom-center uk-panel"><button onclick="add4()" style="border-radius: 8px ; min-width: 12vw ; margin-bottom: 2vh; font-size: 1rem; color: white; background: #2d2c2c; border-color: #2d2c2c;">Read more </button></div>
+                              <div class="uk-overlay uk-overlay-primary .uk-position-top uk-text-center uk-transition-slide-top">
+                                <h3 class="uk-margin-remove">Artificial Vision</h3>
+                                
+                            </div>
+                
+                            </li>
+                    
+                      </ul>
+                
+                      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous" onclick="deleteinf()"></a>
+                      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next" onclick="deleteinf()"></a>
+                
+                  </div>
+                
+                  <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin" onclick="deleteinf()">
+                  
+                
+                  
+                  </ul>
+                
+                </div>
+                
+                
+                
+                <div class="infoser uk-animation-fade" style="margin-bottom: 15vh;" id="infoserv">
+                
+                
+                
+                </div>
+
+                 <button class="uk-button uk-button-primary uk-button-large btn-cu">Contact Us</button>
+
+
+              </div>
+            </li>
+
+
+
+
+            <li>
+              <div class="centerdiv">
+                
+                <h1>Cloud Services</h1>
+
+                <p>The cloud has become a ubiquitous term, and at times, includes a barrier to entry.  Projexel is a cloud agnostic IT company bringing expertise
+                   across multiple cloud platforms.  Our Cloud Services team is dedicated to supporting our customers with their ongoing journey to the cloud.  
+                   Whether it’s a legacy application migration to the cloud or a complete data center modernization effort, Projexel is there to navigate, 
+                   provide expertise, and support our customers.  We specialize in Cloud Computing, Cloud Storage, Cloud Infrastructure, Cloud Migrations, Backup 
+                   & Disaster Recovery, Cloud PBX, and Cloud App Dev Solutions. </p>
+
+                <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652922127766-OCFTYQWIINKGYHGCIG3Y/image-asset.png?format=2500w" alt="">
+
+                  <h1>Cloud Computing Solution and Services</h1>
+
+                  <p>With numerous cloud computing delivery models to choose from (private cloud, public cloud, hybrid models), organizations are struggling to settle 
+                    on the most suitable option that addresses their existing challenges with their on-premise systems. At Projexel, we serve as your advisor in evaluating
+                    the many cloud computing options and help you understand the best course of action for implementation.  Our team of advisors is here to support you in
+                    actualizing your investment in new technology, whether you have a lean IT staff and need augmented support to successfully deploy or you have a cloud 
+                    first initiative that requires a complete modernization effort. Our holistic cloud approach results in the ability to scale up to evolving business 
+                    needs and mitigate common issues that oftentimes accompany a cloud deployment. Our goal is to ensure a smooth and seamless transition to a cloud 
+                    infrastructure with optimized uptimes and streamlined operational costs. </p>
+
+                <h1>Cloud Storage Solutions & Services</h1>
+
+                <p>When it comes to Cloud Storage solutions, there are a vast amount of options suitable for every tier from a GB to PB and beyond!  Oftentimes, cloud 
+                  storage providers are priced very competitively, pennies to the GB, and offer similar micro services (object storage, cold storage, block storage, etc.).  
+                  However, each varying provider does offer niche capabilities and solution differentiators, such as enhanced encryption and security or policies that support 
+                  incremental backups.  At Projexel, we work with our Customers to first understand their storage needs and requirements.  We help to identify leading cloud storage 
+                  solutions and providers and facilitate demos and evaluation criteria for downselect.  Our cloud architects are integral to developing a comprehensive plan and 
+                  implementing the appropriate storage solution.  </p>
+
+              <h1>Cloud Infrastructure</h1>
+
+              <p>Many organizations and agencies alike are faced with the challenge of modernizing their entire IT stack, including their data center infrastructure.  
+                End of life hardware and software within a data center requires an organization to evaluate and assess the benefits and feasibility of moving to a 
+                cloud-based infrastructure versus a costly hardware refresh.  At Projexel, we bring value to organizations looking to modernize their infrastructure 
+                whether it be on-premise, public or private cloud.  Our experts can provide support and expertise across security, leading Infrastructure as a Services 
+                (IaaS) cloud solution providers (CSPs), and best practices to ensure continuity of operations throughout implementation, migration, and ongoing systems 
+                administration and operations and maintenance (O&M). </p>
+
+              <h1>Cloud Backup & Disaster Recovery</h1>
+
+              <p>Protecting our data is mission critical, and planning for  We are helping organizations with implementing backup solutions and Disaster Recovery (DR) 
+                and Continuity of Operations (COOP) planning.  Oftentimes, organizations are legally required to archive data and retain it for a certain period of time.  
+                The challenge is finding a feasible backup and archive solution that integrates with an entire organization’s data sources and IT stack.  Projexel can 
+                support your organization in developing your backup and DR strategy, implementing backup solutions and configuring policies to ensure compliance, as well 
+                as provide augmented ongoing support services for existing DR & COOP policies. </p>
+
+            <h1>Cloud PBX</h1>
+
+            <p>As VoIP and Unified Communication as a Service (UCaaS) solutions emerge, Projexel is offering Cloud PBX services to manage our Customer’s phone systems.  
+              We bring expertise in Cloud PBX solutions, including cloud hosted phone systems, security, Quality of Service (QoS), and VoIP protocols (i.e., SIP, MGCP,
+               RTP, RTCP, SRTP, and XMPP). We support our Customers in understanding Cloud PBX and Cloud VoIP solutions in the marketplace and the viability and 
+               feasibility of potential solutions.  By leveraging VoIP technology, organizations can increase bandwidth efficiency and reduce costs, as both voice and 
+               data communications run over a single network reducing infrastructure costs. </p>
+
+            <h1>Cloud App Dev Solutions</h1>
+
+            <p>With the takeover of mobile devices and smartphones, we have become accustomed to an “App” society from our personal lives to our professional lives.  
+              This has created a saturation of app dev shops over the past several years.  At Projexel, we are here to support your app dev needs.  We bring capabilities 
+              and qualifications in custom app dev projects and leverage an agile development methodology approach and iterative SCRUM framework for rapid and complex 
+              development sprints.  Our team of developers bring expertise across all phases of an app dev project - Assess, Design, Develop, Test, Deploy, and Ongoing 
+              Support & Continuous Improvement. </p>
+
+              <button class="uk-button uk-button-primary uk-button-large btn-cu">Contact Us</button>
+
+              </div>
+
+            </li>
+
+
+
+            <li>
+              <div class="centerdiv">
+                
+                <h1>Managed Services</h1>
+
+                <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652927138030-OC2WYPE014I6SN904QK5/QUALITY+ENGINEERING+AND+TESTING+SERVICES051622.png?format=2500w" alt="">
+
+
+                <h1>Quality Engineering and Testing Services (QE&T)</h1>
+
+                <p>Customers have grown to recognize the value of having an independent partner execute testing for their program. Our Quality Engineering and 
+                  Testing Services (QE&T) are available as a point solution and also as an end-to-end service that cuts across all phases of a project. </p>
+                
+                  <p>Our services provide a hybrid onsite/offshore model that is the most cost-effective in the industry.  Projexel is staffed with 
+                    specialized functional and technical experts across various solutions. Each of our offshore quality engineering team leads averages 10 plus 
+                    years of testing experience.</p>
+
+                <p>Our core competency includes:</p>
+
+                <ul>
+                  <li>Test automation development and architecture</li>
+                  <li>Full lifecycle testing – Quality Engineering</li>
+                  <li>Agile Testing</li>
+                  <li>Performance engineering and designs</li>
+                  <li>Deep experience</li>
+                </ul>
+
+                <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652924799594-J81T8OR6A6UQWCLWCLAR/BUSINESS+TRANSFORMATION051622.png?format=2500w" alt="">
+                
+                <h1>Business Transformation Services</h1>
+
+                <p>Digital transformation is a journey. It requires cultural and behavioral changes as they can be complex, disruptive, and time-consuming.
+                   Each company is unique, and so is the scope and effort required to achieve a successful transformation. Your digital transformation roadmap
+                    must be prescriptive and address specific pain points for your departments and your most significant assets, “your end-users.”</p>
+
+                <p>Projexel has a great team of seasoned professionals to help companies identify the shortest and the best route to process as well 
+                  as resource optimization while guaranteeing sustainable success.</p>
+
+                <p>At Projexel we help you put together the building blocks to:</p>
+
+                <ul>
+                  <li>Streamline operations by eliminating process gaps and improving cross-functional/interdepartmental collaboration</li>
+                  <li>Find smarter ways to complete manual tasks to increase efficiency and letting your employees focus on the important stuff.</li>
+                  <li>Speed up your processes, without sacrificing accuracy. That means you can make vital decisions faster and safe, knowing you have the latest data.</li>
+                  <li>Map your critical processes, understanding who is part of it, what are the steps taken, the information exchanged and the goal.</li>
+                  <li>See who owns each process end to end, how it integrates with the rest of your business, and the results it’s delivering for further improvements.</li>
+                </ul>
+
+                <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/1652927230261-2236I6X3M71NWYJ2EYFA/Digital+Assistant051622.png?format=2500w" alt="">
+
+                <h1>Digital Assistance AI Automation</h1>
+
+                <p>One of the budding user experiences is the need for personal use to quickly access information anytime, anywhere. Digital assistance fills this need by 
+                  providing information to users and performing tasks on their behalf. Hence, there's a new shift in their trend of owning more than one device, not just 
+                  the computer they use at work. This demand comes from the expectation that their experience with personal devices is surpassed the level of the company 
+                  they are working for. </p>
+
+                <p>Digital Assistant will allow organizations to automate routine tasks and assignments by identifying the specific worker to provide a 
+                  custom-made experience, foreseeing requests, and sifting interruptions, so personnel can focus their attention on what is a priority for 
+                  them while keeping in mind confidentiality that they desire. </p>
+
+                <p>As consumers and users of technology, we have the need to quickly access information anytime and anywhere.  With the use of AI, Projexel is providing
+                   Digital Assistant; a solution that enables users the ability to receive information and perform tasks on the users behalf. Digital Assistant will allow
+                    organizations to automate routine tasks and assignments by identifying the specific worker to provide a custom-made experience, foreseeing requests, 
+                    and sifting interruptions, so personnel can focus their attention on what is a priority for them while keeping in mind confidentiality that they 
+                    desire. </p>
+
+                <h1>Data Migration Services</h1>
+
+                <p>Migrating legacy applications, legacy data, and legacy systems to the cloud requires meticulous planning and robust expertise.  Projexel provides 
+                  cloud migration services for organizations that are moving their data to the cloud.  Our team brings capabilities across multiple platforms and cloud 
+                  solutions to ensure we have the right tools to effectively migrate an application or data to the cloud. We consider factors such as the amount of data, 
+                  the complexity of the legacy system, and effectively mapping features and functionality to the new cloud based solution.  We support organizations in 
+                  managing security, compliance, and encryption requirements throughout the migration. </p>
+
+
+                  <button class="uk-button uk-button-primary uk-button-large btn-cu">Contact Us</button>
+
+               </div>
+            </li>
+        </ul>
+    </div>
+ 
+</div>
+
+<footer class="footer-distributed" style="margin-top: 10vh ;">
+
+  <div class="footer-left">
+
+    <img src="https://images.squarespace-cdn.com/content/v1/6284281fe616481cac6e6bb4/e891834c-452c-4b2a-b51b-24e092f2b6b2/PROJEXEL+LOGO+0502b.png?format=1500w" alt="" style="width: 14rem ;">
+
+    <p class="footer-links">
+      <a href="/" class="link-1">Home</a>
+      
+      <a href="about">About</a>
+    
+      <a href="itservices">IT Services</a>
+    
+      <a href="contact">Contact</a>
+      
+    </p>
+
+    <p class="footer-company-name">Projexel LLC © 2017</p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <p class="footer-company-about"><span>Contact us</span></p>
+
+      
+    </div>
+
+    <div>
+      <p uk-icon="phone"></p>
+      <a href="tel:+17378375389" style="color: rgb(255, 255, 255) ;">Call us: (737)-837-5389</a>
+    </div>
+
+
+
+    <div>
+        <p uk-icon="mail"></p>
+      <p><a href="mailto:info@projexel.vet">info@projexel.vet</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>About the company</span>
+      Un slogan que apantalle...
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://mobile.twitter.com/LLCProjexel" target="_blank"><i uk-icon="twitter" ></i></a>
+      <a href="https://www.linkedin.com/company/projexel-llc/about/" target="_blank"><i uk-icon="linkedin"></i></a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-sdvosb">
+
+    <img src="../static/images/svdosb.png" alt="">
+  </div>
+
+</footer>
+<script src="../static/js/index.js"></script>
+</body>
+</html>
